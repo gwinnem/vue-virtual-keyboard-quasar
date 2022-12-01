@@ -6,8 +6,11 @@
 		next-button-url="props-inputPattern"
 		header="Props - inputName"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Allows you to use a single virtual-keyboard instance for several inputs.</div>
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Allows you to use a single virtual-keyboard instance for several inputs.
+		</div>
 		<DocPageCode lang="js" code='inputName: "default"' />
 	</DocPage>
 </template>

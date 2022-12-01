@@ -6,9 +6,12 @@
 		next-button-url="props-disableRowButtonContainers"
 		header="Props - useButtonTag"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Render buttons as button elements instead of the default div elements.</div>
-		<DocPageCode lang="js" code='useButtonTag: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Render buttons as button elements instead of the default div elements.
+		</div>
+		<DocPageCode lang="js" code="useButtonTag: false" />
 	</DocPage>
 </template>
 

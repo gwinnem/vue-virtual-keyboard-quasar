@@ -6,9 +6,15 @@
 		next-button-url="props-physicalKeyboardHighlightTextColor"
 		header="Props - physicalKeyboardHighlightPress"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">When this option and <a href="props-physicalKeyboardHighlight">physicalKeyboardHighlight</a> are both set to true, virtual-keyboard buttons will be highlighted and pressed as you type with your physical keyboard.</div>
-		<DocPageCode lang="js" code='physicalKeyboardHighlightPress: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			When this option and
+			<a href="props-physicalKeyboardHighlight">physicalKeyboardHighlight</a> are
+			both set to true, virtual-keyboard buttons will be highlighted and pressed as
+			you type with your physical keyboard.
+		</div>
+		<DocPageCode lang="js" code="physicalKeyboardHighlightPress: false" />
 	</DocPage>
 </template>
 

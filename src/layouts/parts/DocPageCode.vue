@@ -1,35 +1,35 @@
 <script>
-import 'prismjs'
-import { h, computed } from 'vue'
+import 'prismjs';
+import { h, computed } from 'vue';
 
 export default {
 	name: 'CodePrism',
 
 	props: {
 		code: String,
-		lang: String
+		lang: String,
 	},
 
-	setup (props) {
-		const className = computed(() => `language-${props.lang}`)
+	setup(props) {
+		const className = computed(() => `language-${props.lang}`);
 
-		return () => h('pre', { class: className.value }, [
-			h('code', {
-				class: className.value,
-				innerHTML: Prism.highlight(
-					props.code,
-					Prism.languages[ props.lang ],
-					props.lang
-				)
-			})
-		])
-	}
-}
-
+		return () =>
+			h('pre', { class: className.value }, [
+				h('code', {
+					class: className.value,
+					innerHTML: Prism.highlight(
+						props.code,
+						Prism.languages[props.lang],
+						props.lang
+					),
+				}),
+			]);
+	},
+};
 </script>
 <style lang="scss">
-code[class*="language-"],
-pre[class*="language-"] {
+code[class*='language-'],
+pre[class*='language-'] {
 	color: white;
 	background: none;
 	text-shadow: 0 1px black;
@@ -50,43 +50,47 @@ pre[class*="language-"] {
 	hyphens: none;
 }
 
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+pre[class*='language-']::-moz-selection,
+pre[class*='language-'] ::-moz-selection,
+code[class*='language-']::-moz-selection,
+code[class*='language-'] ::-moz-selection {
 	text-shadow: none;
 	background: #b3d4fc;
 }
 
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
+pre[class*='language-']::selection,
+pre[class*='language-'] ::selection,
+code[class*='language-']::selection,
+code[class*='language-'] ::selection {
 	text-shadow: none;
 	background: #b3d4fc;
 }
 
 @media print {
-	code[class*="language-"],
-	pre[class*="language-"] {
+	code[class*='language-'],
+	pre[class*='language-'] {
 		text-shadow: none;
 	}
 }
 
 /* Code blocks */
-pre[class*="language-"] {
+pre[class*='language-'] {
 	padding: 1em;
-	margin: .5em 0;
+	margin: 0.5em 0;
 	overflow: auto;
-	border-radius: .5em;
-	box-shadow: 1px 1px .5em black inset;
+	border-radius: 0.5em;
+	box-shadow: 1px 1px 0.5em black inset;
 }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
 	background: hsl(30, 20%, 25%);
 }
 
 /* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
+:not(pre) > code[class*='language-'] {
+	padding: 0.1em;
+	border-radius: 0.3em;
 	white-space: normal;
 }
 
@@ -102,7 +106,7 @@ pre[class*="language-"] {
 }
 
 .token.namespace {
-	opacity: .7;
+	opacity: 0.7;
 }
 
 .token.property,
@@ -161,5 +165,4 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-
 </style>

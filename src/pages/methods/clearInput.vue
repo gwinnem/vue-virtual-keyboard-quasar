@@ -6,14 +6,18 @@
 		next-button-url="methods-getInput"
 		header="Methods - clearInput"
 		show-back-button="true"
-		show-next-button="true">
+		show-next-button="true"
+	>
 		<div class="text-h6">Clear the keyboard’s input.</div>
-		<DocPageCode lang="js" code='// For default input (i.e. if you have only one)
+		<DocPageCode
+			lang="js"
+			code='// For default input (i.e. if you have only one)
 keyboard.clearInput();
 
 // For specific input
 // Must have been previously set using the "inputName" prop.
-keyboard.clearInput("myInputName");' />
+keyboard.clearInput("myInputName");'
+		/>
 	</DocPage>
 </template>
 

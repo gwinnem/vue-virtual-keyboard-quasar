@@ -6,15 +6,21 @@
 		next-button-url="props-mergeDisplay"
 		header="Props - display"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Replaces layout buttons with a human-friendly name (e.g.: “backspace”).</div>
-		<DocPageCode lang="js" code="import { IDisplay } from 'src/core/interfaces/keyboard.interfaces';
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Replaces layout buttons with a human-friendly name (e.g.: “backspace”).
+		</div>
+		<DocPageCode
+			lang="js"
+			code="import { IDisplay } from 'src/core/interfaces/keyboard.interfaces';
   export const display: IDisplay = {
   '{bksp}': 'backspace',
   '{enter}': '< enter',
   '@': 'at',
   ...
-}" />
+}"
+		/>
 	</DocPage>
 </template>
 

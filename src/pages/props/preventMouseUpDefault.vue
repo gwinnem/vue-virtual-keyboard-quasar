@@ -6,9 +6,13 @@
 		next-button-url="props-stopMouseUpPropagation"
 		header="Props - preventMouseUpDefault"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Calls preventDefault() on MouseUp (including pointerup, touchend, touchcancel, etc.)</div>
-		<DocPageCode lang="js" code='preventMouseUpDefault: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Calls preventDefault() on MouseUp (including pointerup, touchend,
+			touchcancel, etc.)
+		</div>
+		<DocPageCode lang="js" code="preventMouseUpDefault: false" />
 	</DocPage>
 </template>
 

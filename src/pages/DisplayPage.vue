@@ -1,13 +1,24 @@
 <template>
 	<DocPage>
 		<div class="doc-heading doc-h1">Display</div>
-		<div class="text-h6">Replaces layout buttons with a human-friendly name (e.g.: “backspace”).</div>
-		<div class="text-h6">It is also possible to add unicode letters and icons to the keyboard. See the German display file below.</div>
 		<div class="text-h6">
-			<a href="https://www.rapidtables.com/code/text/unicode-characters.html" target="_blank">Unicode characters table.</a>
+			Replaces layout buttons with a human-friendly name (e.g.: “backspace”).
+		</div>
+		<div class="text-h6">
+			It is also possible to add unicode letters and icons to the keyboard. See the
+			German display file below.
+		</div>
+		<div class="text-h6">
+			<a
+				href="https://www.rapidtables.com/code/text/unicode-characters.html"
+				target="_blank"
+				>Unicode characters table.</a
+			>
 		</div>
 		<div class="text-h5">German display file.</div>
-		<DocPageCode lang="js" code='/**
+		<DocPageCode
+			lang="js"
+			code='/**
  * German keyboard layout
  */
 import { IDisplay } from "src/core/interfaces/keyboard.interfaces";
@@ -30,7 +41,8 @@ export const display: IDisplay = {
 	// eslint-disable-next-line vue/sort-keys,sort-keys
 	"@": `@`,
 };
-'/>
+'
+		/>
 		<div class="text-h6 q-mt-lg">German keyboard with unicode icons.</div>
 		<div class="row">
 			<q-img
@@ -41,8 +53,12 @@ export const display: IDisplay = {
 			/>
 		</div>
 		<q-separator class="q-mt-lg q-mb-lg" />
-		<div class="text-h5 q-mt-lg">Default display file with all keyboard key's.</div>
-		<DocPageCode lang="js" code='/**
+		<div class="text-h5 q-mt-lg">
+			Default display file with all keyboard key's.
+		</div>
+		<DocPageCode
+			lang="js"
+			code='/**
  * Default keyboard layout
  */
 import { IDisplay } from "src/core/interfaces/keyboard.interfaces";
@@ -109,10 +125,9 @@ export const display: IDisplay = {
   "{numpad7}": `7`,
   "{numpad8}": `8`,
   "{numpad9}": `9`,
-};' />
-
+};'
+		/>
 	</DocPage>
-
 </template>
 
 <script setup>

@@ -6,9 +6,13 @@
 		next-button-url="props-newLineOnEnter"
 		header="Props - disableCaretPositioning"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Disables caret positioning, meaning that characters will always be added/removed at the end of the string.</div>
-		<DocPageCode lang="js" code='disableCaretPositioning: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Disables caret positioning, meaning that characters will always be
+			added/removed at the end of the string.
+		</div>
+		<DocPageCode lang="js" code="disableCaretPositioning: false" />
 	</DocPage>
 </template>
 

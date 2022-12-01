@@ -6,11 +6,18 @@
 		next-button-url="events-onChangeAll"
 		header="Events - onChange"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Executes the callback function on input change. Returns the current input’s string.</div>
-		<DocPageCode lang="js" code='  const onChange = (value: string): void => {
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Executes the callback function on input change. Returns the current input’s
+			string.
+		</div>
+		<DocPageCode
+			lang="js"
+			code='  const onChange = (value: string): void => {
     console.log(value, "onChange - value");
-  };' />
+  };'
+		/>
 	</DocPage>
 </template>
 

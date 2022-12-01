@@ -6,9 +6,12 @@
 		next-button-url="props-stopMouseDownPropagation"
 		header="Props - preventMouseDownDefault"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Prevents loss of input focus from clicking on the virtual-keyboard buttons</div>
-		<DocPageCode lang="js" code='preventMouseDownDefault: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Prevents loss of input focus from clicking on the virtual-keyboard buttons
+		</div>
+		<DocPageCode lang="js" code="preventMouseDownDefault: false" />
 	</DocPage>
 </template>
 

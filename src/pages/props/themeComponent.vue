@@ -6,17 +6,26 @@
 		next-button-url="props-buttonTheme"
 		header="Props - theme"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">A prop to add your own css classes to the keyboard wrapper. You can add multiple classes separated by a space.</div>
-		<DocPageCode lang="js" code='// Default Theme layout.
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			A prop to add your own css classes to the keyboard wrapper. You can add
+			multiple classes separated by a space.
+		</div>
+		<DocPageCode
+			lang="js"
+			code='// Default Theme layout.
 theme: "hg-theme-default"
 
 // Dark Theme layout.
-theme: "hg-theme-default darkTheme" ' />
+theme: "hg-theme-default darkTheme" '
+		/>
 
-	<q-separator class="q-mt-lg q-mb-lg" />
-	<div class="text-h6">darkTheme css</div>
-	<DocPageCode lang="css" code='/*
+		<q-separator class="q-mt-lg q-mb-lg" />
+		<div class="text-h6">darkTheme css</div>
+		<DocPageCode
+			lang="css"
+			code="/*
   Theme: darkTheme
 */
 .simple-keyboard.darkTheme {
@@ -40,7 +49,8 @@ theme: "hg-theme-default darkTheme" ' />
 
 #root .simple-keyboard.darkTheme + .simple-keyboard-preview {
   background: #1c4995;
-}' />
+}"
+		/>
 	</DocPage>
 </template>
 

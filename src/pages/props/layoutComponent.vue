@@ -6,9 +6,14 @@
 		next-button-url="props-layoutName"
 		header="Props - layout"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Use this property when you want to use a specific layout.</div>
-		<DocPageCode lang="js" code="import { ILayoutItem } from '../interfaces/keyboard.interfaces';
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Use this property when you want to use a specific layout.
+		</div>
+		<DocPageCode
+			lang="js"
+			code="import { ILayoutItem } from '../interfaces/keyboard.interfaces';
 
 /**
  * Layout: Default
@@ -31,7 +36,8 @@ export default <ILayoutItem>{
     ],
   },
 };
-" />
+"
+		/>
 	</DocPage>
 </template>
 

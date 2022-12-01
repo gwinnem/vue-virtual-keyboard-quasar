@@ -6,9 +6,15 @@
 		next-button-url="props-theme"
 		header="Props - mergeDisplay"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">By default, when you set the "display" property, you replace the default one. This setting merges them instead.</div>
-		<DocPageCode lang="js" code="mergeDisplay: true,
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			By default, when you set the "display" property, you replace the default one.
+			This setting merges them instead.
+		</div>
+		<DocPageCode
+			lang="js"
+			code="mergeDisplay: true,
 
 display: {
   '{bksp}': 'delete',
@@ -21,7 +27,8 @@ display: {
   '{enter}': 'submit',
   '{shift}': 'shift', // < Merged from default among others
   ....
-}" />
+}"
+		/>
 	</DocPage>
 </template>
 

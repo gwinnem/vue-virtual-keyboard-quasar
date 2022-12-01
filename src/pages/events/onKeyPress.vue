@@ -6,15 +6,22 @@
 		next-button-url="events-onKeyReleased"
 		header="Events - onKeyPress"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Executes the callback function on key press. Returns button layout name (i.e.: “{shift}”).</div>
-		<DocPageCode lang="js" code='  const onKeyPress = (button: string): void => {
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Executes the callback function on key press. Returns button layout name
+			(i.e.: “{shift}”).
+		</div>
+		<DocPageCode
+			lang="js"
+			code='  const onKeyPress = (button: string): void => {
     if(button === `{enter}`) {
       isKeyboardOpen.value = false;
     } else {
       console.log(button, "button")
     }
-  };' />
+  };'
+		/>
 	</DocPage>
 </template>
 

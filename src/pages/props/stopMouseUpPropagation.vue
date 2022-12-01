@@ -6,14 +6,21 @@
 		next-button-url="props-physicalKeyboardHighlight"
 		header="Props - stopMouseUpPropagation"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Stops pointer up events on virtual-keyboard buttons from bubbling to parent elements.</div>
-		<DocPageCode lang="js" code='// For default input (i.e. if you have only one)
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Stops pointer up events on virtual-keyboard buttons from bubbling to parent
+			elements.
+		</div>
+		<DocPageCode
+			lang="js"
+			code='// For default input (i.e. if you have only one)
 keyboard.clearInput();
 
 // For specific input
 // Must have been previously set using the "inputName" prop.
-keyboard.clearInput("myInputName");' />
+keyboard.clearInput("myInputName");'
+		/>
 	</DocPage>
 </template>
 

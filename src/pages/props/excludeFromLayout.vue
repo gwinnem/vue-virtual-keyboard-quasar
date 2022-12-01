@@ -6,12 +6,16 @@
 		next-button-url="props-autoUseTouchEvents"
 		header="Props - excludeFromLayout"
 		show-back-button="true"
-		show-next-button="true">
+		show-next-button="true"
+	>
 		<div class="text-h6">Use this option to remove buttons from your layout.</div>
-		<DocPageCode lang="js" code='excludeFromLayout: {
+		<DocPageCode
+			lang="js"
+			code='excludeFromLayout: {
   default: ["@", ".com"],
   shift: ["@", ".com"]
-}' />
+}'
+		/>
 	</DocPage>
 </template>
 

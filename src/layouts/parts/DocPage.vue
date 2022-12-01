@@ -1,18 +1,28 @@
 <template>
 	<q-page class="doc-page">
-		<div class="doc-heading doc-h1">{{props.header}}</div>
+		<div class="doc-heading doc-h1">{{ props.header }}</div>
 		<slot></slot>
 		<div class="q-pt-md q-gutter-md flex justify-center">
-			<q-btn v-if="props.showBackButton" :to="backButtonUrl" color="secondary" no-caps>
+			<q-btn
+				v-if="props.showBackButton"
+				:to="backButtonUrl"
+				color="secondary"
+				no-caps
+			>
 				<q-icon name="fa-solid fa-chevron-left" />
-				{{backButtonText}}
+				{{ backButtonText }}
 			</q-btn>
 			<q-btn to="/" color="secondary" no-caps>
 				<q-icon class="q-pr-sm" name="fa-solid fa-home" />
 				Home
 			</q-btn>
-			<q-btn v-if="props.showNextButton" :to="nextButtonUrl" color="secondary" no-caps>
-				{{nextButtonText}}
+			<q-btn
+				v-if="props.showNextButton"
+				:to="nextButtonUrl"
+				color="secondary"
+				no-caps
+			>
+				{{ nextButtonText }}
 				<q-icon name="fa-solid fa-chevron-right" />
 			</q-btn>
 		</div>

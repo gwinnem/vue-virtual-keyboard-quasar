@@ -6,9 +6,12 @@
 		next-button-url="props-disableButtonHold"
 		header="Props - disableRowButtonContainers"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">When set to true, this option disables the button grouping functionality.</div>
-		<DocPageCode lang="js" code='disableRowButtonContainers: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			When set to true, this option disables the button grouping functionality.
+		</div>
+		<DocPageCode lang="js" code="disableRowButtonContainers: false" />
 	</DocPage>
 </template>
 

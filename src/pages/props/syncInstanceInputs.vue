@@ -6,9 +6,13 @@
 		next-button-url="props-maxLength"
 		header="Props - syncInstanceInputs"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">When set to true, this option synchronizes the internal input of every virtual-keyboard instance.</div>
-		<DocPageCode lang="js" code='syncInstanceInputs: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			When set to true, this option synchronizes the internal input of every
+			virtual-keyboard instance.
+		</div>
+		<DocPageCode lang="js" code="syncInstanceInputs: false" />
 	</DocPage>
 </template>
 

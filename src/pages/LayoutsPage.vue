@@ -3,10 +3,16 @@
 		next-button-text="All Layouts"
 		next-button-url="AllLayouts"
 		header="Layouts"
-		show-next-button="true">
+		show-next-button="true"
+	>
 		<div class="text-h5">Default layout.</div>
-		<p class="text-h6">There are 150 different layout options. The component only supports 5 row's of keyboard buttons. Keep this in mind when creating a new layout.</p>
-		<DocPageCode lang="js" code="import { ILayoutItem } from '../interfaces/keyboard.interfaces';
+		<p class="text-h6">
+			There are 150 different layout options. The component only supports 5 row's
+			of keyboard buttons. Keep this in mind when creating a new layout.
+		</p>
+		<DocPageCode
+			lang="js"
+			code="import { ILayoutItem } from '../interfaces/keyboard.interfaces';
 
 /**
  * Layout: Default
@@ -28,7 +34,8 @@ export default <ILayoutItem>{
     '.com @ {space}',
     ],
   },
-};" />
+};"
+		/>
 		<div class="text-h6 q-mt-lg">Default keyboard layout.</div>
 
 		<q-img
@@ -43,7 +50,6 @@ export default <ILayoutItem>{
 <script setup>
 import DocPage from '../layouts/parts/DocPage.vue';
 import DocPageCode from '../layouts/parts/DocPageCode.vue';
-
 </script>
 
 <style lang="scss" scoped>

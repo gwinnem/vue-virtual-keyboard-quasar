@@ -6,16 +6,23 @@
 		next-button-url="props-syncInstanceInputs"
 		header="Props - inputPattern"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Limits virtual-keyboard’s input to a certain regular expression. This means that if a key doesn’t match the regex, it will be ignored.</div>
-		<DocPageCode lang="js" code="// Applies to all internal inputs
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Limits virtual-keyboard’s input to a certain regular expression. This means
+			that if a key doesn’t match the regex, it will be ignored.
+		</div>
+		<DocPageCode
+			lang="js"
+			code="// Applies to all internal inputs
 inputPattern: /^\d+$/
 
 // Use an expression for a specific input, in case you are using the inputName option
 		inputPattern: {
 		'default': /^\d+$/,
 		'myFancyInput': /^[a-zA-Z]+$/
-		}" />
+		}"
+		/>
 	</DocPage>
 </template>
 

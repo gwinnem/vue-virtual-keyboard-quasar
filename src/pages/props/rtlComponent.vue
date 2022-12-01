@@ -6,12 +6,20 @@
 		next-button-url="props-keyboardClass"
 		header="Props - rtl"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">When set to true, this option adds
-			<a href="http://unicode.org/reports/tr9/#Directional_Formatting_Codes" target="_blank">unicode directional control characters</a> \u202B and \u202C to
-			<a href="events-onChange">onChange()</a> and <a href="methods-getInput">getInput()</a> returns.
-			This helps to address issues when using virtual-keyboard with right-to-left layouts.</div>
-		<DocPageCode lang="js" code='rtl: true;' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			When set to true, this option adds
+			<a
+				href="http://unicode.org/reports/tr9/#Directional_Formatting_Codes"
+				target="_blank"
+				>unicode directional control characters</a
+			>
+			\u202B and \u202C to <a href="events-onChange">onChange()</a> and
+			<a href="methods-getInput">getInput()</a> returns. This helps to address
+			issues when using virtual-keyboard with right-to-left layouts.
+		</div>
+		<DocPageCode lang="js" code="rtl: true;" />
 	</DocPage>
 </template>
 

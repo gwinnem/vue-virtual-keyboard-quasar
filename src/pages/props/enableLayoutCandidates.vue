@@ -6,9 +6,12 @@
 		next-button-url="props-layoutCandidates"
 		header="Props - enableLayoutCandidates"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Whether or not to enable the layoutCandidates feature. Enabled by default.</div>
-		<DocPageCode lang="js" code='enableLayoutCandidates: true;' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Whether or not to enable the layoutCandidates feature. Enabled by default.
+		</div>
+		<DocPageCode lang="js" code="enableLayoutCandidates: true;" />
 	</DocPage>
 </template>
 

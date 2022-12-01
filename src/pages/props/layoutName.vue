@@ -6,7 +6,8 @@
 		next-button-url="props-enableLayoutCandidates"
 		header="Props - layoutName"
 		show-back-button="true"
-		show-next-button="true">
+		show-next-button="true"
+	>
 		<div class="text-h6">Specifies which layout should be used.</div>
 		<DocPageCode lang="js" code='layoutName: "default";' />
 	</DocPage>

@@ -6,9 +6,12 @@
 		next-button-url="props-disableCaretPositioning"
 		header="Props - disableButtonHold"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">When set to true, this option disables the button hold action.</div>
-		<DocPageCode lang="js" code='disableButtonHold: false' />
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			When set to true, this option disables the button hold action.
+		</div>
+		<DocPageCode lang="js" code="disableButtonHold: false" />
 	</DocPage>
 </template>
 

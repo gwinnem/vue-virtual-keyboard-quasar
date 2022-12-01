@@ -6,16 +6,22 @@
 		next-button-url="props-useButtonTag"
 		header="Props - buttonAttributes"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">A prop to add your own attributes to one or several buttons.</div>
-		<DocPageCode lang="js" code='buttonAttributes: [
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			A prop to add your own attributes to one or several buttons.
+		</div>
+		<DocPageCode
+			lang="js"
+			code='buttonAttributes: [
   {
     attribute: "aria-label",
     value: "bee",
     buttons: "b B"
   },
   ...
-]' />
+]'
+		/>
 	</DocPage>
 </template>
 

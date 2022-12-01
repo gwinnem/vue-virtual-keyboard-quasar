@@ -6,9 +6,10 @@
 		next-button-url="methods-getCaretPosition"
 		header="Methods - destroy"
 		show-back-button="true"
-		show-next-button="true">
+		show-next-button="true"
+	>
 		<div class="text-h6">Removes keyboard listeners and DOM elements.</div>
-		<DocPageCode lang="js" code='keyboard.destroy();' />
+		<DocPageCode lang="js" code="keyboard.destroy();" />
 	</DocPage>
 </template>
 
@@ -16,4 +17,3 @@
 import DocPage from '../../layouts/parts/DocPage.vue';
 import DocPageCode from '../../layouts/parts/DocPageCode.vue';
 </script>
-

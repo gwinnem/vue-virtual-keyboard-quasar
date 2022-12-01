@@ -6,11 +6,17 @@
 		next-button-url="events-beforeRender"
 		header="Events - beforeFirstRender"
 		show-back-button="true"
-		show-next-button="true">
-		<div class="text-h6">Executes the callback function before the first virtual-keyboard render.</div>
-		<DocPageCode lang="js" code='  const beforeFirstRender = (): void => {
+		show-next-button="true"
+	>
+		<div class="text-h6">
+			Executes the callback function before the first virtual-keyboard render.
+		</div>
+		<DocPageCode
+			lang="js"
+			code='  const beforeFirstRender = (): void => {
     console.log("beforeFirstRender");
-  };' />
+  };'
+		/>
 	</DocPage>
 </template>
 
