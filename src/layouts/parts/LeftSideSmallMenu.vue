@@ -112,6 +112,20 @@
 				<q-icon size="22px" name="fa-solid fa-display" />
 				<div class="GPL__side-btn__label">Display</div>
 			</q-btn>
+
+			<q-btn
+				to="interfaces"
+				round
+				flat
+				color="grey-8"
+				stack
+				no-caps
+				size="26px"
+				class="GPL__side-btn"
+			>
+				<q-icon size="22px" name="fa-solid fa-laptop" />
+				<div class="GPL__side-btn__label">Interfaces</div>
+			</q-btn>
 		</div>
 	</q-page-sticky>
 </template>

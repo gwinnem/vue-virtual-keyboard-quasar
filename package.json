@@ -3,9 +3,10 @@
 	"version": "0.0.1",
 	"description": "Documentation and demo's for the VueVirtualKeyboard npm package.",
 	"productName": "Vue Virtual Keyboard - Quasar",
-	"author": "Geirr Winnem <g.winnem@ringana.com>",
+	"author": "Geirr Winnem <gwinnem@gmail.com>",
 	"private": true,
 	"scripts": {
+		"dev": "quasar dev",
 		"lint": "eslint --ext .js,.ts,.vue ./",
 		"format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
 		"test": "echo \"No test specified\" && exit 0"
@@ -13,8 +14,10 @@
 	"dependencies": {
 		"@quasar/extras": "^1.0.0",
 		"quasar": "^2.6.0",
+		"simple-keyboard": "^3.4.195",
 		"vue": "^3.0.0",
-		"vue-router": "^4.0.0"
+		"vue-router": "^4.0.0",
+		"VueVirtualKeyboard": "file:../vue-virtual-keyboard/VueVirtualKeyboard-0.0.2.tgz"
 	},
 	"devDependencies": {
 		"@quasar/app-vite": "^1.0.0",
@@ -31,7 +34,6 @@
 	},
 	"engines": {
 		"node": "^18 || ^16 || ^14.19",
-		"npm": ">= 6.13.4",
-		"yarn": ">= 1.21.1"
+		"npm": ">= 6.13.4"
 	}
 }

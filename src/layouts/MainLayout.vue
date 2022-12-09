@@ -118,6 +118,7 @@ export default {
 				{ icon: 'fa-solid fa-globe', text: 'Events', route: 'events' },
 				{ icon: 'fa-solid fa-keyboard', text: 'Layouts', route: 'layouts' },
 				{ icon: 'fa-solid fa-display', text: 'Display', route: 'display' },
+				{ icon: 'fa-solid fa-laptop', text: 'Interfaces', route: 'interfaces' },
 			],
 			createMenu: [
 				{ icon: 'photo_album', text: 'Album' },

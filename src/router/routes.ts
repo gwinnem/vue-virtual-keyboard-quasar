@@ -8,6 +8,7 @@ const routes: RouteRecordRaw[] = [
 			{ path: 'start', component: () => import('pages/StartPage.vue') },
 			{ path: 'demos', component: () => import('pages/DemoPage.vue') },
 			{ path: 'props', component: () => import('pages/PropsPage.vue') },
+			{ path: 'theme', component: () => import('pages/darkTheme.vue') },
 			{
 				path: 'props-layout',
 				component: () => import('pages/props/layoutComponent.vue'),
@@ -245,6 +246,7 @@ const routes: RouteRecordRaw[] = [
 			{ path: 'Layouts', component: () => import('pages/LayoutsPage.vue') },
 			{ path: 'AllLayouts', component: () => import('pages/AllLayoutsPage.vue') },
 			{ path: 'Display', component: () => import('pages/DisplayPage.vue') },
+			{ path: 'Interfaces', component: () => import('pages/InterfacesPage.vue') },
 		],
 	},
 

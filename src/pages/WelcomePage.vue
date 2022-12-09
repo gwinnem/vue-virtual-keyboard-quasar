@@ -58,6 +58,18 @@
 	margin-right: auto;
 }
 
+.doc-heading {
+	color: #00b4ff;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.doc-h1 {
+	font-size: 3rem;
+	line-height: 3rem;
+	font-weight: 600;
+}
+
 .keyboard-image-width {
 	max-width: 800px;
 }
